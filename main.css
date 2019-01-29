@@ -1,0 +1,55 @@
+header {
+    padding: 30px;
+}
+.game-pad{
+    height: 100px;
+    width: 100px;
+    background:silver;
+    border: 2px solid black;
+    width: 33%; 
+    font-size: 400%;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: black;
+    position: relative;
+    
+}
+#container {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    /* display:flex; */
+    /* justify-content:center; */
+}
+.g {
+    text-align:center;
+    
+}
+.row {
+    /* display: -ms-flexbox; */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+
+}
+button.restart-btn {
+    margin-top: 10%; 
+    width: 60%;
+    padding: 1rem ;
+   
+}
+.fin {
+    position: absolute;
+    width: 70%;
+    height: 250px;
+    z-index: -1;
+    background-color: white;
+    border: 3px solid black;
+    padding:30px;
+    margin-top: 2%;
+    margin-bottom: 1%;  
+}
