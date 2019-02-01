@@ -11,19 +11,15 @@ header {
     padding-left: 0px;
     padding-right: 0px;
     color: black;
-    position: relative;
-    
+    position: relative;  
 }
+.game-pad:focus{
+    outline: 0;
+}  
 #container {
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    /* display:flex; */
-    /* justify-content:center; */
-}
-.g {
-    text-align:center;
-    
 }
 .row {
     /* display: -ms-flexbox; */
@@ -31,25 +27,20 @@ header {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
-    
-    /* margin-right: -15px; */
-    /* margin-left: -15px; */
-
 }
 button.restart-btn {
-    margin-top: 10%; 
+    margin-top: 5%; 
     width: 60%;
-    padding: 1rem ;
-   
+    padding: 1rem ; 
 }
-.fin {
-    position: absolute;
-    width: 70%;
-    height: 250px;
-    z-index: -1;
+.fin {  
+    width: 80%;
+    height: 100px;
+    z-index: 1;
     background-color: white;
     border: 3px solid black;
-    padding:30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-top: 2%;
-    margin-bottom: 1%;  
+    margin-bottom: 4%;  
 }

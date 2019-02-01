@@ -9,42 +9,34 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
 </head>
 <body>
-   <div class="g">
-        <div class="container" style="overflow-y:auto" display="inline-block">
-            <header class="text-center ">
-                <h1>Tic Tac Toe</h1>
-            </header>           
-            <div class="row">
-                <div class="fin text-center " id="fin1">
-                    <h2>Player1 Wins</h2>
-                    <button type="button" class="restart-btn btn-primary btn-lg  text-center "onclick="onRestBtnClick()">Restart</button>             
-                </div>
-                 <div class="fin text-center " id="fin2">
-                    <h2>Player2 Wins</h2>
-                    <button type="button" class="restart-btn btn-primary btn-lg  text-center" onclick="onRestBtnClick()">Restart</button> 
-                </div>  
-                <div class="fin text-center " id="fin3">
-                    <h2>Tie</h2>
-                    <button type="button" class="restart-btn btn-primary btn-lg  text-center "onclick="onRestBtnClick()">Restart</button>                       
-                </div>      
-                <button class="game-pad" type="button" id="0" onclick="onBtnClick(this.id)">&nbsp</button>
-                <button class="game-pad" type="button" Id="1" onclick="onBtnClick(this.id)">&nbsp</button>
-                <button class="game-pad" type="button" Id="2" onclick="onBtnClick(this.id)">&nbsp</button>
-            </div>          
-            <div class="row">
-                <button class="game-pad" type="button" Id="3" onclick="onBtnClick(this.id)">&nbsp</button>
-                <button class="game-pad" type="button" Id="4" onclick="onBtnClick(this.id)">&nbsp</button>
-                <button class="game-pad" type="button" Id="5" onclick="onBtnClick(this.id)">&nbsp</button>
+    <div class="container" style="overflow-y:auto" display="inline-block">
+        <header class="text-center ">
+            <h1>Tic Tac Toe</h1>
+        </header> 
+        <div class="row"> 
+            <div class="fin text-center " id="fin">
+                <h2>Click a box</h2>
             </div>
-            <div class="row">
-                <button class="game-pad" type="button" Id="6" onclick="onBtnClick(this.id)">&nbsp</button>
-                <button class="game-pad" type="button" Id="7" onclick="onBtnClick(this.id)">&nbsp</button>
-                <button class="game-pad" type="button" Id="8" onclick="onBtnClick(this.id)">&nbsp</button>             
-            </div>
-            <div class="row">
-                <button type="button" class="restart-btn btn-primary btn-lg  text-center "onclick="onRestBtnClick()">Restart</button> 
-            </div> 
+        </div>              
+        <div class="row">   
+            <button class="game-pad" type="button" id="0" onclick="onBtnClick([0,0],this.id)">&nbsp</button>
+            <button class="game-pad" type="button" Id="1" onclick="onBtnClick([0,1],this.id)">&nbsp</button>
+            <button class="game-pad" type="button" Id="2" onclick="onBtnClick([0,2],this.id)">&nbsp</button>
+        </div>          
+        <div class="row">
+            <button class="game-pad" type="button" Id="3" onclick="onBtnClick([1,0],this.id)">&nbsp</button>
+            <button class="game-pad" type="button" Id="4" onclick="onBtnClick([1,1],this.id)">&nbsp</button>
+            <button class="game-pad" type="button" Id="5" onclick="onBtnClick([1,2],this.id)">&nbsp</button>
         </div>
+        <div class="row">
+            <button class="game-pad" type="button" Id="6" onclick="onBtnClick([2,0],this.id)">&nbsp</button>
+            <button class="game-pad" type="button" Id="7" onclick="onBtnClick([2,1],this.id)">&nbsp</button>
+            <button class="game-pad" type="button" Id="8" onclick="onBtnClick([2,2],this.id)">&nbsp</button>             
+        </d
+        <div class="row">
+            
+            <button type="button" class="restart-btn btn-primary btn-lg  text-center "onclick="onRestBtnClick()">Restart</button> 
+        </div> 
     </div>
 </body>
 </html>
