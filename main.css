@@ -1,7 +1,7 @@
 header {
     padding: 30px;
 }
-.game-pad{
+.game-pad {
     height: 100px;
     width: 100px;
     background:silver;
@@ -13,7 +13,7 @@ header {
     color: black;
     position: relative;  
 }
-.game-pad:focus{
+.game-pad:focus {
     outline: 0;
 }  
 #container {
@@ -22,7 +22,6 @@ header {
     margin-left: auto;
 }
 .row {
-    /* display: -ms-flexbox; */
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
